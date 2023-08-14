@@ -1,0 +1,231 @@
+﻿/*
+    Google Fonts;
+    font-family: 'Cinzel', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Tektur', cursive;
+    font-family: 'Victor Mono', monospace;
+*/
+
+
+/* Body Styling */
+body 
+{
+    background-image: url('https://wallpaperaccess.com/full/3975189.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Contact Div Styling & Fonts */
+.contact_div
+{
+    background-color: rgba(255,255,255,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px 15px black;
+    width: 85%;
+    padding: 40px;
+    margin: 80px auto;
+}
+
+.contactdivheader 
+{
+    font-family: 'Victor Mono', monospace;
+    color: #000;
+    text-shadow: 8px 8px 10px forestgreen;
+    font-size: 35px;
+}
+
+.contactdivparagraph 
+{
+    font-family: 'Tektur', cursive;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+/* About Div Styling & Fonts */
+.about_div {
+    background-color: rgba(0,0,0,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid white;
+    padding: 40px;
+    width: 85%;
+    margin: 80px auto;
+    box-shadow: 10px 10px 15px #C0C0C0;
+}
+
+.aboutdivheader 
+{
+    font-family: 'Cinzel', serif;
+    color: forestgreen;
+    font-size: 35px;
+    text-shadow: 10px 10px 15px #FFF;
+}
+
+.aboutdivparagraph 
+{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+/* Game Div Styling & Fonts */
+.game_div {
+    background-color: rgba(255,255,255,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid gold;
+    padding: 40px;
+    width: 85%;
+    margin: 80px auto;
+}
+
+.gamedivheader 
+{
+    font-family: 'Press Start 2P', cursive;
+    color: darkorange;
+    text-shadow: 10px 10px 15px #C0C0C0;
+    font-size: 35px;
+}
+
+.gamedivparagraph 
+{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.gxgamesheading 
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 5px 7px #000;
+}
+/* Mobile Div Styling & Fonts */
+.mobilediv {
+    background-color: rgba(0,0,0,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid #0F0;
+    box-shadow: 20px 10px 30px #C0C0C0;
+    padding: 40px;
+    width: 85%;
+    margin: 80px auto;
+}
+
+.mobiledivheader 
+{
+    font-family: 'Rajdhani', sans-serif;
+    color: aqua;
+    text-shadow: 10px 10px 15px #C0C0C0;
+    font-size: 35px;
+}
+
+.mobiledivparagraph 
+{
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+/* Website Div Styling & Fonts */
+.web_div {
+    background-color: rgba(0,0,0,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid #0F0;
+    box-shadow: 20px 10px 30px #C0C0C0;
+    padding: 40px;
+    width: 85%;
+    margin: 80px auto;
+}
+
+.webdivheader 
+{
+    font-family: 'Tektur', cursive;
+    color: #0F0;
+    text-shadow: 10px 10px 15px #C0C0C0;
+    font-size: 50px;
+}
+
+.webdivparagraph 
+{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.webDivElemHeader 
+{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px 15px #C0C0C0;
+}
+
+.webDivElemParagraph 
+{
+    font-family: 'Tektur', cursive;
+    color: white;
+    text-align: left;
+}
+/* Home Div Styling & Fonts */
+.home_div {
+    background-color: rgba(255,255,255,0.8);
+    position: center;
+    text-align: center;
+    border: 3px solid #00F;
+    box-shadow: 10px 10px 15px #C0C0C0;
+    padding: 20px;
+    width: 85%;
+    margin: 80px auto;
+}
+
+.homedivheader
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 5px 7px #C0C0C0;
+    color: darkgoldenrod;
+}
+
+.homedivparagraph 
+{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.homedivparagrapha
+{
+    font-family: 'Cinzel', serif; 
+    text-align: left;
+    font-size: 20px;
+}
+/* Heading Fonts & Styling */
+#gfont {
+    font-family: 'Orbitron', sans-serif;
+    color: #FFF;
+    text-shadow: 5px 5px 7px #C0C0C0;
+}
+#gfont:hover
+{
+    font-family: 'Press Start 2P', cursive;
+    color: gold;
+    text-shadow: 5px 5px 7px #FFF;
+}
+
+#nav_name
+{
+    font-family: 'Victor Mono', monospace;
+    text-shadow: 7px 7px 10px #C0C0C0;
+    color: #00FF00;
+    font-size: 30px;
+}
